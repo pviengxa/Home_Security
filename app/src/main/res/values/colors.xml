@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_text_field">#0A3D9E</color>
+    <color name="color_red">#F02A2A</color>
+    <color name="color_background">#A2A2A3</color>
+    <color name="color_section_background">#767779</color>
+    <color name="transparent">#00000000</color>
+    <color name="faded_background"></color>
+    <color name="gradStart">#ffd6d3</color>
+    <color name="color_black">#000000</color>
+    <color name="clickable_blue">#104DD3</color>
+    <color name="forget_password_background">#D8D7D7</color>
+</resources>

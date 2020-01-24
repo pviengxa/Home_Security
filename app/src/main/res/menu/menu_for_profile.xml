@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accountInfo"
+        android:title="Account Info"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/signOut"
+        android:title="Sign Out"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/addLock"
+        android:title="Add Button"
+        android:icon="@drawable/add_button_icon"
+        app:showAsAction="always"/>
+
+</menu>

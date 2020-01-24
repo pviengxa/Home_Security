@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:background="@drawable/grad_list">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:padding="5sp"
+        android:text="@string/iron_lock"
+        android:textColor="@color/color_white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="384dp"
+        android:layout_height="381dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle"><![CDATA[>
+
+
+        ]]>
+
+        <EditText
+            android:id="@+id/editTextForLastName"
+            android:layout_width="175dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <EditText
+            android:id="@+id/editTextForFirstName"
+            android:layout_width="170dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <EditText
+            android:id="@+id/editTextForPhoneNumber"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.441"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607" />
+
+        <EditText
+            android:id="@+id/editTextForPassword"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.441"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775" />
+
+        <EditText
+            android:id="@+id/editTextForEmail"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.271" />
+
+        <EditText
+            android:id="@+id/editTextForRePassword"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edit_text_round_corner"
+            android:ems="10"
+            android:hint="@string/re_password"
+            android:inputType="textPassword"
+            android:padding="5dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/editTextForPassword"
+            app:layout_constraintStart_toStartOf="@+id/editTextForPassword"
+            app:layout_constraintTop_toBottomOf="@+id/editTextForPassword" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupForGender"
+        android:layout_width="395dp"
+        android:layout_height="43dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <CheckBox
+            android:id="@+id/checkBoxForAgreement"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:text="@string/accepting"
+            android:textColor="@color/color_white" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewForRedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_must_agree"
+        android:gravity="center"
+        android:textColor="@color/color_red"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/buttonForCreate"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ECECEC"
+        android:text="@string/sign_up"
+        android:textSize="20sp" />
+
+</LinearLayout>

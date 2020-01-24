@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "796202496336",
+    "firebase_url": "https://ironlock-fd7c0.firebaseio.com",
+    "project_id": "ironlock-fd7c0",
+    "storage_bucket": "ironlock-fd7c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796202496336:android:f4ce7043870600e4b6fc55",
+        "android_client_info": {
+          "package_name": "com.example.lab4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796202496336-g7e31bht449o4vdcpv11p9gjef6pch6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab4",
+            "certificate_hash": "b260a0ed3e234a8b691532ad9eb12a7d2f99e840"
+          }
+        },
+        {
+          "client_id": "796202496336-mlkqar2jdp0r0d2sm0m35unspbkdr3j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSgN4VSJA5wefgKTlPSP5-Gnr9KcMyHbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796202496336-mlkqar2jdp0r0d2sm0m35unspbkdr3j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
